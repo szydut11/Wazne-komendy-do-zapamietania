@@ -1,5 +1,4 @@
-c
-ć# wszystko o pętli **_for_**
+# wszystko o pętli **_for_**
 
 1. Pętla for jak nazwa sama wskazuje słuzy do powtazania jakiejs okreslonej czynnosci lub zadanego zadania 
 ```
