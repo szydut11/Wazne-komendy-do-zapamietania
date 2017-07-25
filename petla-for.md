@@ -4,21 +4,20 @@
 ```
 #!/bin/bash
 
-for x in {1..2}; do
+for x in {1..100}; do
   mkdir ${x}
-  echo "tworzenie katalogu 1"
-  echo "tworzenie katalogu 2"
+  echo "tworzenie katalogu ${x}"
+
   cd ${x}
-  echo "wchodze do katalogu 1"
-  echo "wychodze z katalogu 2"
-  for y in {1..2}; do
+  echo "wchodze do katalogu ${x}"
+
+  for y in {1..100}; do
       touch ${y}.txt
-  echo "tworze plik 1"
-  echo "tworze plik 2"
+  echo "tworze plik ${y}"
   done
+
   cd ..
-  echo "wychodze z katalogu 1"
-  echo "wychodze z katalogu 2"
+  echo "wychodze z katalogu ${x}"
 done
 ```
 
