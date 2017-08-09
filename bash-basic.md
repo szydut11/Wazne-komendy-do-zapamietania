@@ -157,3 +157,77 @@ word		word.txt	world.doc	world.jpg	world.txt
 ```
 
 
+```
+10. **_ls *.txt_** - pokazuje wszystkei pliki ktore maja koncowke txt w danym katalogu
+```
+pc44:nowy szymondutka$ ls *.txt
+cos.txt		dddd.txt	mysz.txt	word.txt
+czad.txt	miód.txt	nowy.txt	world.txt
+```
+11. **_ls w*.txt kilka pilkow_** - wyszukuje i wyswietla wszystkie pliki o poczatku na w i rozszerzeniu .txt
+```
+pc44:nowy szymondutka$ ls w*.txt
+wiele.txt	witam.txt	word.txt	world.txt	wracam.txt
+```
+12. **_ls w*??.txt_** - szuka i wyswietla pliki o pocztaku w na trzy litery lub liczby i roszerzeniu .txt
+```
+pc44:nowy szymondutka$ ls w*??.txt
+wiele.txt	witam.txt	word.txt	world.txt	wracam.txt
+```
+13. **_ls *w??.txt_** - ta komenda wyswietla nam w ty przypadku obraz/y ktory/e ma/ja poczatek i koniec nieznany natomiast w srodku jest litera w i rozszerzenie .txt 
+```
+pc44:nowy szymondutka$ ls *o??.txt
+miód.txt	nowy.txt	word.txt
+```
+14. **_cp *.txt ../copies_** - tworzy kopie plikow txt 
+```
+```
+15. **_rm ../copies_** -  usuwa wszystkie pliki z kopii txt
+```
+```
+16. **_alpha alnum digit lower upper_** - ustawia pliki w kolejnosci alfabetycznej, alfanumerycznej, wedlug liczby , malejaco ,rosnaco
+```
+```
+17. **_ls [[:digit:]]nowy_** - ukalda pliki wedlug kolejnosci liczbowej
+```
+pc44:nowy szymondutka$ ls [[:digit:]]nowy
+ls: [[:digit:]]nowy: No such file or directory
+pc44:nowy szymondutka$ ls
+cos.txt		drukarka	komputer	mysz		wiele.txt	word		world.jpg
+czad.txt	flame.txt	miód.txt	mysz.txt	witam		word.txt	world.txt
+dddd.txt	klawiatura	monitor		nowy.txt	witam.txt	world.doc	wracam.txt
+```
+18. **_ls [[:upper:]]*_** - uklada pliki rosnaco
+```
+pc44:nowy szymondutka$ ls [[:upper:]]nowy
+ls: [[:upper:]]nowy: No such file or directory
+pc44:nowy szymondutka$ ls
+cos.txt		drukarka	komputer	mysz		wiele.txt	word		world.jpg
+czad.txt	flame.txt	miód.txt	mysz.txt	witam		word.txt	world.txt
+dddd.txt	klawiatura	monitor		nowy.txt	witam.txt	world.doc	wracam.txt
+```
+19. **_ls [[:alpha:]]*_** - ukalda pliki w kolejnosci alfabetycznej
+```
+pc44:nowy szymondutka$ ls [[:alpha:]]nowy
+ls: [[:alpha:]]nowy: No such file or directory
+pc44:nowy szymondutka$ ls
+cos.txt		drukarka	komputer	mysz		wiele.txt	word		world.jpg
+czad.txt	flame.txt	miód.txt	mysz.txt	witam		word.txt	world.txt
+dddd.txt	klawiatura	monitor		nowy.txt	witam.txt	world.doc	wracam.txt
+```
+
+20. **_ls [1f]*_** - wyswietla pliki ktore zawiraja w nazwie jedno f 
+```
+pc44:nowy szymondutka$ ls [1f]*
+flame.txt
+```
+21. **_ls [2f]_** - wyswietla pliki ktore maja 2f w nazwie
+```
+pc44:nowy szymondutka$ ls [2f]*
+flame-fire.txt
+```
+22. **_ls [wp][io][r123]*_** - 
+``` 
+pc44:nowy szymondutka$ ls [wp][io][r123]*
+word		word.txt	world.doc	world.jpg	world.txt
+```
