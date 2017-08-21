@@ -88,7 +88,8 @@ Maska 255.255.255.192 /26
 podsiec 1 ma 126 hostow natomiast drugq podsiec podzielilismy na dwie wiec druga i trzecia beda po 62 hosty i po tym wszystkim mozemy zabrac sie za obliczenie adresow sieci, rozgloszeniowych, pierwszego i ostatniego hosta  
 ```
 
-13. **_Adresy prywatne_** Adresy prywatne nie są routowane w Internecie, co oznacza, że mogą się powtarzać w różnych sieciach.
+13.# **_Adresy prywatne_** Adresy prywatne nie są routowane w Internecie, co oznacza, że mogą się powtarzać w różnych sieciach.
  * A	10.0.0.0 - 10.255.255.255
  * B	172.16.0.0 - 172.31.255.255
  * C	192.168.0.0 - 192.168.255.255
+ 
