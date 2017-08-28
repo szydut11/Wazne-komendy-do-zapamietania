@@ -77,6 +77,10 @@ MacBook-Pro-Szymon:~ szymondutka$ dig  +noall  @ns1.google.com www.google.com
 
 
 7. **_DHCP (Dynamic Host Configuration Protocol)_** - umozliwia przydzielanie adresów oraz innych elementów konfiguracjii.
+```
+DHCP option 50: 192.168.1.100 requested
+Klient prosi serwer o przydzielenie danego adres IP
+```
 
 
 8. **_ARP_** - protokół sieciowy umożliwiający mapowanie logicznych adresów warstwy sieciowej 
