@@ -8,16 +8,16 @@
 
 # tak wygląda zabezpieczony protokół HTTPS
 
-![alt](file:///Users/szymondutka/Desktop/Screen%20Shot%202017-08-29%20at%2011.38.11.png)
+https://zapodaj.net/ed6d152effe95.png.html
 
 
-![alt](file:///Users/szymondutka/Desktop/Screen%20Shot%202017-08-29%20at%2011.38.31.png)
+https://zapodaj.net/7d32b6e8c7076.png.html
 
 
 # natomiast tak wygląda strona z protokołem HTTP
 
 
-![alt](file:///Users/szymondutka/Desktop/Screen%20Shot%202017-08-29%20at%2011.48.36.png)
+https://zapodaj.net/5703d37a891dd.png.html
 
 
 3. **_komendy i programy  które mogą przydać do obserwowania połączenia HTTP_** :
