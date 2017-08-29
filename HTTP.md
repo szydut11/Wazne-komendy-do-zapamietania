@@ -8,7 +8,7 @@
 
 # tak wygląda zabezpieczony protokół HTTPS
 
-https://zapodaj.net/ed6d152effe95.png.html
+https://zapodaj.net/5703d37a891dd.png.html
 
 
 https://zapodaj.net/7d32b6e8c7076.png.html
@@ -17,7 +17,7 @@ https://zapodaj.net/7d32b6e8c7076.png.html
 # natomiast tak wygląda strona z protokołem HTTP
 
 
-https://zapodaj.net/5703d37a891dd.png.html
+https://zapodaj.net/ed6d152effe95.png.html
 
 
 3. **_komendy i programy  które mogą przydać do obserwowania połączenia HTTP_** :
